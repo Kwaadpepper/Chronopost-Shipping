@@ -1,16 +1,24 @@
 {
-    "name": "kwaadpepper/chronopost-wsdl",
-    "description": "Package generated from https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl using wsdltophp/packagegenerator",
-    "require": {
-        "php": ">=7.4",
-        "ext-dom": "*",
-        "ext-mbstring": "*",
-        "ext-soap": "*",
-        "wsdltophp/packagebase": "~5.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "": "./src/"
-        }
+  "name": "kwaadpepper/chronopost-wsdl",
+  "description": "Package generated from https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl using wsdltophp/packagegenerator",
+  "license": "MIT",
+  "homepage": "https://github.com/Kwaadpepper/chronopost",
+  "keywords": [
+    "chronopost",
+    "WSDL",
+    "Lib",
+    "Api"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-dom": "*",
+    "ext-mbstring": "*",
+    "ext-soap": "*",
+    "wsdltophp/packagebase": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./src/"
     }
+  }
 }
