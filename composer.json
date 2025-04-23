@@ -1,8 +1,9 @@
 {
   "name": "kwaadpepper/chronopost-shipping",
   "description": "Package generated from https://ws.chronopost.fr/shipping-cxf/ShippingServiceWS?wsdl using wsdltophp/packagegenerator",
-  "license": "MIT",
   "homepage": "https://github.com/Kwaadpepper/chronopost-shipping",
+  "license": "MIT",
+  "type": "library",
   "keywords": [
     "chronopost",
     "shipping",
